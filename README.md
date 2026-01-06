@@ -4,7 +4,7 @@ Air quality data platform built as a set of microservices: producer, streaming, 
 
 Demo: https://air.naviodev.com
 
-Data flow: Producer → Kafka (Confluent Cloud) → Spark → Supabase → Geo API → Web client
+Data flow: Producer → Kafka (Confluent Cloud) → Spark → Supabase (PostgreSQL) → Geo API (FastAPI) → Web client (OpenLayers + Chart.js)
 
 ## Screenshots
 ![Dashboard 1](imgs/1.png)
@@ -30,4 +30,4 @@ Data flow: Producer → Kafka (Confluent Cloud) → Spark → Supabase → Geo A
 - Poland: GIOS API
 
 ## Stack
-Airflow, Kafka (Confluent Cloud), Spark, Supabase (Postgres), FastAPI, static web UI.
+Airflow, Kafka (Confluent Cloud), Spark, Supabase (PostgreSQL), FastAPI, static web UI.
