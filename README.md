@@ -4,6 +4,12 @@ Air quality data platform built as a set of microservices: producer, streaming, 
 
 Demo: https://air.naviodev.com
 
+## Screenshots
+![Dashboard 1](imgs/1.png)
+![Dashboard 2](imgs/2.png)
+![Dashboard 3](imgs/3.png)
+![Dashboard 4](imgs/4.png)
+
 ## Repositories
 - airquality-data-pipeline: https://github.com/aliaksandrgis/airquality-data-pipeline
 - airquality-spark-jobs: https://github.com/aliaksandrgis/airquality-spark-jobs
